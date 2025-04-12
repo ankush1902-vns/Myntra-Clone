@@ -1,0 +1,388 @@
+*
+{
+    margin : 0px ;
+    padding: 0px ;
+       
+}
+:root
+{
+    --primary-color : black ;
+    --secondary-color : white ;
+}
+.darkmode 
+{
+    --primary-color : white ;
+    --secondary-color : black ;
+}
+header 
+{
+    height: 100px ;
+    width : 100vw ;
+    padding : 10px 15px ;
+    padding-right : 0px ;
+    display : flex ;
+    justify-content: left ;
+    align-items: center ;
+    box-shadow: 5px 5px 10px rgb(95, 92, 92) ;
+    background-color: var(--secondary-color) ;
+}
+header img 
+{
+    width : 140px ;
+    height : 80px ;
+    display : inline ;
+}
+header .menu
+{
+    width : 640px ;
+}
+.menu a 
+{
+    margin-left : 35px ;
+    font-size : 15px ;
+    font-weight : 600 ;
+   text-transform: uppercase ;
+   text-decoration: none ;
+}
+header input 
+{
+    width : 400px ;
+    height: 40px ;
+    padding-left: 25px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 25px ;
+    border-radius: 100px ;
+    margin-left : 20px ;
+}
+header .icon 
+{
+    margin-left : 40px ;
+    display : flex ;
+    flex-direction: column ;
+}
+.icon i
+{
+    font-size : 30px ;
+    margin-left : 40px ;
+    color : transparent ;
+    -webkit-text-stroke: 2px  var(--primary-color) ;
+}
+.i1 a
+{
+    margin-left : 28px ;
+    font-size : 20px ;
+    text-transform: capitalize ;
+}
+sup 
+{
+    color : red ;
+    font-size: 10px ;
+}
+.men 
+{
+    position : relative ;
+}
+.men::before
+{
+  content: "";
+   width : 120% ;
+   height : 6px ;
+   position: absolute ;
+   background-color: red ;
+   top : 66px ;
+   left : -20%;
+   visibility: hidden ;
+}
+.men:hover::before
+{
+    visibility: visible;
+}
+.women 
+{
+    position : relative ;
+}
+.women::before
+{
+  content: "";
+   width : 120% ;
+   height : 6px ;
+   position: absolute ;
+   background-color: rgb(255, 138, 177) ;
+   top : 66px ;
+   left : -20%;
+   visibility: hidden ;
+}
+.women:hover::before
+{
+    visibility: visible;
+}
+.kids 
+{
+    position : relative ;
+}
+body 
+{
+    background-color: var(--secondary-color) ;
+}
+.kids::before
+{
+  content: "";
+   width : 120% ;
+   height : 6px ;
+   position: absolute ;
+   background-color: red ;
+   top : 66px ;
+   left : -20%;
+   visibility: hidden ;
+}
+.kids:hover::before
+{
+    visibility: visible;
+}
+.home
+{
+    position : relative ;
+}
+.home::before
+{
+  content: "";
+   width : 120% ;
+   height : 6px ;
+   position: absolute ;
+   background-color: yellow ;
+   top : 66px ;
+   left : -20%;
+   visibility: hidden ;
+}
+.home:hover::before
+{
+    visibility: visible;
+}
+.beauty
+{
+    position : relative ;
+}
+.beauty::before
+{
+  content: "";
+   width : 120% ;
+   height : 6px ;
+   position: absolute ;
+   background-color: green ;
+   top : 66px ;
+   left : -20%;
+   visibility: hidden ;
+}
+.beauty:hover::before
+{
+    visibility: visible;
+}
+.genz 
+{
+    position : relative ;
+}
+.genz::before
+{
+  content: "";
+   width : 120% ;
+   height : 6px ;
+   position: absolute ;
+   background-color: green ;
+   top : 66px ;
+   left : -20%;
+   visibility: hidden ;
+}
+.genz:hover::before
+{
+    visibility: visible;
+}
+#men 
+{
+    position : absolute ;
+    top : 128px ;
+    left : 125px ;
+    width : auto ;
+    border : 2px solid black ;
+    display : flex ;
+    flex-direction: row ;
+    visibility: hidden ;
+}
+#men div 
+{
+    border : 0.6px solid var(--primary-color) ;
+    padding-top : 20px ;
+    padding-bottom: 20px ;
+    padding-left : 20px ;
+    width :  200px ;
+}
+#men div a 
+{
+    text-align: center;
+    font-size : 20px ;
+    color : red ;
+    font-weight: 800 ;
+    text-transform: capitalize ;
+    padding-bottom: 10px ;
+}
+ul 
+{
+    list-style-type: none;
+}
+li 
+{
+    margin-bottom: 7px ;
+    text-transform: capitalize ;
+    margin-top : 10px ;
+}
+#m1 
+{
+   padding-left : 50px ;
+}
+hr 
+{
+    margin : 10px 0px
+}
+#poster img
+{
+    margin-top : 60px ;
+    height : 400px ;
+    width : 100vw ;
+}
+.ott img
+{
+         display : inline ;
+         width : 640px ;
+         margin-top : 40px ;
+         
+}
+h1 
+{
+    margin : 80px 30px ;
+    text-transform: uppercase ;
+    font-weight : 700 ;
+    letter-spacing: 0.1em ;
+     word-spacing: 0.2em ;
+     font-family : Arial, Helvetica, sans-serif ;
+     font-size : 26px ;
+     color : var(--primary-color) ;
+}
+.collection 
+{ 
+     height : 340px ;
+    border : 2px solid var(--primary-color) ;
+    overflow-x : hidden ;
+    overflow-y : hidden ;
+    display : flex ;
+    color : var(--primary-color) ;
+   
+}
+.collection div img 
+{
+    height : 76% ;
+    width : 100% ;
+}
+.collection h2 
+{
+    text-align: center ;
+    text-transform: capitalize ;
+    margin : 10px ;
+}
+.collection h3 
+{
+    text-align: center ;
+    text-transform: capitalize ;
+    margin : 10px ;
+}
+.collection a 
+{
+    text-decoration: line-through ;
+    margin-right : 5px ;
+}
+.collection div 
+{
+    min-width : 310px ;
+}
+.brand
+{ 
+     height : 340px ;
+    border : 2px solid var(--primary-color) ;
+    overflow-x: hidden ;
+    overflow-y : hidden ;
+    display : flex ;
+    color : var(--primary-color) ;
+}
+.brand div img 
+{
+    height : 76% ;
+    width : 100% ;
+}
+.brand h2 
+{
+    text-align: center ;
+    text-transform: capitalize ;
+    margin : 10px ;
+}
+.brand h3 
+{
+    text-align: center ;
+    text-transform: capitalize ;
+    margin : 10px ;
+}
+.brand a 
+{
+    margin-right : 5px ;
+}
+.brand div 
+{
+    min-width : 310px ;
+}
+@keyframes move 
+{
+    from 
+    {
+        transform: translate(0%) ;
+    }
+    to 
+    {
+        transform : translate(-820%) ;
+    }
+}
+.s1 
+{
+    overflow-x: scroll ;
+    overflow-y : hidden ;
+    display : flex ;
+    color : var(--primary-color) ;
+    margin-left : 90px ;
+    margin-right:80px ;
+    display: flex ;
+    flex-wrap: wrap ;
+    padding-left : 60px ;
+}
+.s1 div 
+{
+    height : 260px ;
+    min-width : 200px ;
+    margin-right : 40px ;
+}
+.t1
+{
+   margin : 20px ;
+   width : 100% ;
+}
+#head 
+{
+    text-align: center ;
+} 
+.s1 div img 
+{
+    height : 100% ;
+    width : 100% ;
+    border-radius: 10px ;
+    margin-bottom: 0% ;
+}
+.poster  img
+{
+    margin : 100px ;
+    width : 1200px ;
+}
